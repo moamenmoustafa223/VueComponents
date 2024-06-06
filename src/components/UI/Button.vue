@@ -1,6 +1,7 @@
 <template>
   <b-button
     class="mx-2 px-3 py-2  rounded-3 text-center custom-button"
+    :type="type"
     :class="customVariant"
     :size="size"
     :block="fullWidth"
@@ -136,5 +137,5 @@ export default {
 }
 
 
-/* Add other custom styles here */
+
 </style>
